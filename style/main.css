@@ -1,7 +1,11 @@
 body {
   background-color: #111;
-  color: yellow;
+  color: rebeccapurple;
   font-size: 3rem;
+}
+
+h2 {
+  color: green;
 }
 
 /*# sourceMappingURL=main.css.map */
