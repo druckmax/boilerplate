@@ -1,0 +1,21 @@
+{
+  "name": "sass-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "watch": "live-server src",
+    "compile:sass": "sass src/sass/main.scss src/style/main.css -w",
+    "start": "run-p watch compile:sass",
+    "publish": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Max Sommerfeld",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "live-server": "^1.1.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.49.9"
+  }
+}
